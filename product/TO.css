@@ -1,0 +1,309 @@
+
+ :root {
+     --blue: #007bff;
+     --indigo: #6610f2;
+     --purple: #6f42c1;
+     --pink: #e83e8c;
+     --red: #dc3545;
+     --orange: #fd7e14;
+     --yellow: #ffc107;
+     --green: #28a745;
+     --teal: #20c997;
+     --cyan: #17a2b8;
+     --white: #fff;
+     --gray: #6c757d;
+     --gray -dark: #343a40;
+     --primary: #007bff;
+     --secondary: #6c757d;
+     --success: #28a745;
+     --info: #17a2b8;
+     --warning: #ffc107;
+     --danger: #dc3545;
+     --light: #f8f9fa;
+     --dark: #343a40;
+     --breakpoint-xs:0;
+     --breakpoint-sm:576px;
+     --breakpoint-md:768px;
+     --breakpoint-lg:992px;
+     --breakpoint-xl:1200px;
+     --font-family-sans-serif:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans - serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+     --font-family-monospace:SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace 
+}
+
+ *,: : after,: :before {
+     box-sizing:border-box 
+}
+ html {
+     font-family:sans-serif;
+     line-height:1.15;
+     -webkit-text-size-adjust:100 %;
+     -webkit-tap-highlight-color:transparent 
+}
+ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+     display:block 
+}
+ body {
+     margin:0;
+     font-family:-apple -system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans - serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+     font-size:1rem;
+     font-weight:400;
+     line-height:1.5;
+     color: #212529;
+     text-align:left;
+     background-color: #fff 
+}
+[tabindex = "-1"]:focus {
+     outline:0 ! important 
+}
+ hr {
+     box-sizing:content-box;
+     height:0;
+     overflow:visible 
+}
+
+ h1, h2, h3, h4, h5, h6 {
+     margin-top:0;
+     margin-bottom:.5rem 
+}
+p {
+     margin-top:0;
+     margin-bottom:1rem 
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+     margin-bottom:.5rem;
+     font-weight:500;
+     line-height:1.2 
+}
+
+.h2, h2 {
+     font-size:2rem 
+}
+
+
+
+
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
+
+
+
+
+
+
+
+
+.head
+{
+	width: 100%;
+	height: 100px;
+	background-color: red;
+}
+.test
+{
+
+  
+  padding:3rem;
+  margin:1rem;
+  text-align:center;
+  background-color:#f8f9fa;
+  background-image:url(TOT.jpg);
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.test2
+{
+  margin-right:auto;
+  margin-top:3rem;
+
+}
+
+
+.Cadre
+{
+  padding:0rem;
+  margin:1rem;
+  background-color: yellow;
+ 
+}
+
+.Cadre1
+{
+	margin-right: 0.2rem;
+  margin-bottom: 0.5rem;
+  float: left;
+  width: 49.5%;
+  	
+}
+.Cadre2
+{
+  margin-left: 0.2rem;
+  margin-bottom: 0.5rem;
+  /*background-color: rgb(89,178,198);*/
+  float: right;
+  width: 49.5%;
+  text-align: center;
+    
+}
+
+
+#example1 
+{
+  display: inline-block;
+  text-align: center;
+  width: 65%;
+  /*background-color: #ffcccc;*/
+  /*background-color: rgb(241,155,44);*/
+  /*border: 1px solid #ffcccc;*/
+  padding: 10px;
+  /*box-shadow: 5px 10px 8px #888888;*/
+  margin-bottom: 2em;
+}
+#example2 
+{
+  display: inline-block;
+  text-align: center;
+  width: 80%;
+  /*background-color: #ccf5ff;*/
+  /*background-color: rgb(229,77,66);*/
+  /*border: 1px solid #ccf5ff;*/
+  padding: 10px;
+  /*box-shadow: 5px 10px 8px #888888;*/
+  margin-bottom: 0.2em;
+}
+
+div.polaroid {
+  width: 284px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+div.rotate_right {
+  float: left;
+  -ms-transform: rotate(7deg); /* IE 9 */
+  -webkit-transform: rotate(7deg); /* Safari */
+  transform: rotate(7deg);
+}
+
+div.rotate_left {
+  float: left;
+  -ms-transform: rotate(-8deg); /* IE 9 */
+  -webkit-transform: rotate(-8deg); /* Safari */
+  transform: rotate(-8deg);
+}
+
+.center
+{
+  padding: 2em;
+  
+}
+
+
+
+
+
+@media only screen and (max-width: 35em) {
+    .Cadre1,.Cadre2 {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* NavBar */
+
+
+
+
+
+
+
+
+.logo
+{
+  height: 80px;
+  float: left;
+}
+.logo img
+{
+  margin: 0.6em 2em 1em 1em;
+  max-width: 50px;
+}
+
+
+
+
+nav ul
+{
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+
+nav li
+{
+  list-style-type: none;
+  float: left;
+}
+
+nav
+{
+  width: 100%;
+  background-color: #292c2f;
+}
+
+nav a
+{
+  display: inline-block;
+  text-decoration: none;
+  padding: 30px 30px;
+  color : #ffffff;
+}
+
+/*
+.A:hover
+{
+  border-top : 5px solid #ff6868;
+}
+*/
+nav li:hover a 
+{
+  /*padding: 25px 30px 20px 30px;*/
+  color: rgb(251,126,54);
+
+}
+
+
+
+
+
+
